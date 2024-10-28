@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class WeatherService {
-  private apiKey = '6382bcc26479515eedc5eecb7474992f';
+  private apiKey = '48fd77ce64711a1e80cb53513089a0a7';
 
   constructor(private http: HttpClient) {}
 
@@ -17,3 +17,9 @@ export class WeatherService {
     );
   }
 }
+/*
+
+
+
+
+*/
